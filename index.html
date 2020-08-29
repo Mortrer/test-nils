@@ -2,9 +2,59 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+	<script src="node_modules\jquery\dist\jquery.min.js"></script>
+	<script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script> 
 	<title>Pagina ejemplo</title>
 </head>
 <body>
-	Pagina de ejemplo
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			<a class="navbar-brand text-white">
+				AC
+			</a>
+			<button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a href="#" class="nav-link">Inicio</a>
+					</li>
+					<li class="nav-item active">
+						<a href="#" class="nav-link">Servicios</a>
+					</li>	
+					<li class="nav-item active">
+						<a href="#" class="nav-link">Contacto</a>
+					</li>		
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div align="center">
+		<img src="imagenes/logo_reparaciones.jpeg" height="250px" >
+	</div>	
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Servicio tecnico de calidad</h1>
+			<p>Empresa dedicada al servicio tecnico, reparacion de equipos moviles, mantenimiento de equipos de computo.</p>
+		</div>
+		<div class="table-responsive">
+			<table class="table table-hover table-bordered table-white">
+				<thead class="thead-light">
+					<tr class="table-secondary">
+						<th>Soporte</th>
+						<th>Flexibilidad</th>
+						<th>Equipo Tecnico</th>
+					</tr>
+					<tr>
+						<th>Contamos con un Soporte 24/7</th>
+						<th>Todos nuestros plane de soporte se crean bajo necesidades</th>
+						<th>Nuestro equipo esta en constante capacitacion</th>
+					</tr>
+				</thead>
+			</table>
+		</div>
+	</div>
 </body>
 </html>
