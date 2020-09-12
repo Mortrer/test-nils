@@ -3,14 +3,16 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="node_modules\open-iconic\font\css\open-iconic-bootstrap.min.css">
 	<script src="node_modules\jquery\dist\jquery.min.js"></script>
 	<script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script> 
-	<title>Pagina ejemplo</title>
+	<title>AC Reparaciones</title>
 </head>
 <body>
 	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 			<a class="navbar-brand text-white">
+				<span class="oi oi-home footer-address-icon"></span>
 				AC
 			</a>
 			<button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
@@ -20,24 +22,25 @@
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
 						<a href="#" class="nav-link">Inicio</a>
-					</li>
-					<li class="nav-item active">
-						<a href="#" class="nav-link">Servicios</a>
 					</li>	
-					<li class="nav-item active">
-						<a href="#" class="nav-link">Contacto</a>
+					<li class="nav-item">
+						<a href="contacto.html" class="nav-link">Contacto</a>
 					</li>		
 				</ul>
 			</div>
 		</nav>
+		<br>
+		<ol class="breadcrumb">
+			<li>Inicio</li>
+		</ol>
 	</div>
 	<div align="center">
 		<img src="imagenes/logo_reparaciones.jpeg" height="250px" >
 	</div>	
 	<div class="container">
 		<div class="jumbotron">
-			<h1>Servicio tecnico de calidad</h1>
-			<p>Empresa dedicada al servicio tecnico, reparacion de equipos moviles, mantenimiento de equipos de computo.</p>
+			<h1>Servicio técnico de calidad</h1>
+			<p>Empresa dedicada al servicio técnico, reparación de equipos móviles, mantenimiento de equipos de computo.</p>
 		</div>
 		<div class="table-responsive">
 			<table class="table table-hover table-bordered table-white">
@@ -45,16 +48,66 @@
 					<tr class="table-secondary">
 						<th>Soporte</th>
 						<th>Flexibilidad</th>
-						<th>Equipo Tecnico</th>
+						<th>Equipo Técnico</th>
 					</tr>
 					<tr>
 						<th>Contamos con un Soporte 24/7</th>
-						<th>Todos nuestros plane de soporte se crean bajo necesidades</th>
+						<th>Todos nuestros planes de soporte se crean bajo necesidades</th>
 						<th>Nuestro equipo esta en constante capacitacion</th>
 					</tr>
 				</thead>
 			</table>
 		</div>
+		<div class="jumbotron">
+			<h1>Nuestros servicios</h1>
+			<br>
+			<div class="container">
+			<br>
+				<div class="row">
+					<div role="tabpanel">
+						<ul class="nav nav-tabs" role="tablist">
+							<li role="presentation"><a class="nav-link active" href="#computadoras" aria-controls="computadoras" data-toggle="tab" role="tab">Computadoras</a></li>
+							<li role="presentation"><a class="nav-link" href="#celulares" aria-controls="celulares" data-toggle="tab" role="tab">Celulares</a></li>
+					
+						</ul>
+							<div class="tab-content" id="tablaservicios">
+								<div class="tab-pane fade show active" id="computadoras" role="tabpanel" aria-labelledby="contenido1-tab">
+									<h3><span class="oi oi-laptop footer-address-icon"></span> Mantenimiento de Computadoras</h2>
+									<p>Desarrollamos un servicio sostenible para que los equipos funcionene de manera integrada y en optimas condiciones.
+									<br>	
+									Contamos con un servicio en cuenta al mantenimiento informatico preventivo.
+									<br>
+									se realiza un chequeo general de las computadoras para tener un diagnostico inicial sobre los equipos.
+									<br>
+									<br>
+									-Se realizan reportes detallados de los equipos.
+									<br>
+									-Actualización de software y antivirus.
+									<br>
+									-Mantenimiento y revisión de backup.</p>
+								</div>
+							<div class="tab-pane fade" id="celulares" role="tabpanel" aria-labelledby="contenido2-tab">
+								<h3><span class="oi oi-tablet footer-address-icon"></span>Reparacion de Celulares</h2>
+								<p>Ofrecemos el servicio de todo tipo de reparaciones para celulares.
+								<br>
+								<br>
+								contamos con las reparaciones:
+								<br>
+								Cambio de pantalla.
+								<br>
+								Cambio de puertos de carga/cambio de baterias.
+								<br>
+								Cambio de botones.
+								<br>
+								Audio y microfonos.
+								<br>
+								Protectores de pantalla.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
 	</div>
 </body>
 </html>
