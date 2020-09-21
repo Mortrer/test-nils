@@ -35,7 +35,7 @@
 		</ol>
 	</div>
 	<div align="center">
-		<img src="imagenes/logo_reparaciones.jpeg" height="250px" >
+		<img src="imagenes/logo_reparaciones.jpeg" class="rounded" height="250px" >
 	</div>	
 	<div class="container">
 		<div class="jumbotron">
@@ -107,6 +107,71 @@
 					</div>
 				</div>
 		</div>
+		<!--
+			fin de servicios-usando tabs
+		-->
+		<!-- inicio de galeria-->
+		<div class="jumbotron">
+			<h1>Galeria</h1>
+			<div class="container">
+				<div class="row">
+  					<div class="col-sm-3">
+    					<div class="card">
+      						<div class="card-body">
+       							<!--<h5 class="card-title">Dirección</h5>-->
+        						<img src="imagenes/ac_movil.jpeg" class="img-fluid img-thumbnail" >
+      						</div>
+    					</div>
+  					</div>
+  					<div class="col-sm-3">
+    					<div class="card">
+      						<div class="card-body">
+      							<!--<h5 class="card-title">Dirección</h5>-->
+        						<img src="imagenes/celular4.jpeg" class="img-fluid img-thumbnail">
+      						</div>
+    					</div>
+  					</div>
+  					<div class="col-sm-3">
+    					<div class="card">
+      						<div class="card-body">
+      							<!--<h5 class="card-title">Dirección</h5>-->
+        						<img src="imagenes/celular5.jpeg" class="img-fluid img-thumbnail">
+      						</div>
+    					</div>
+  					</div>
+				</div>
+			</div>
+			
+			<!-- fin de galeria -->
+		</div>
+		<!--inicio del boton para llamado del modal -->
+		<div class="text-center">
+		<button type="button" class="btn btn-outline-primary " data-toggle="modal" data-target="#ejemplo">Suscripción</button>
+		</div>
+		<!--fin del boton para llamado del modal -->
+		<!--inicio del modal-->
+		<div class="modal fade" tabindex="-1" role="dialog" id="ejemplo" aria-labelledby="ejemplo" aria-hidden="true">
+  			<div class="modal-dialog" role="document">
+    			<div class="modal-content">
+      				<div class="modal-header">
+        				<h5 class="modal-title">Suscripción a Ofertas</h5>
+        				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          				<span aria-hidden="true">&times;</span>
+        				</button>
+      				</div>
+      				<div class="modal-body">
+        				<p>Correo electronico</p>
+        				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        				
+      				</div>
+      					<div class="modal-footer">
+        					<button type="button" class="btn btn-primary">Enviar</button>
+        				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      					</div>
+    			</div>
+  			</div>
+		</div>
+		<!--fin de modal -->
 	</div>
 	</div>
 </body>
